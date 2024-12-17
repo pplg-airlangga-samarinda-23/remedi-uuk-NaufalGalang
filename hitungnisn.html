@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perhitungan NISN</title>
+</head>
+<body>
+    <label for="nisn">Masukkan NISN:</label>
+    <input type="number" id="nisn">
+    <button onclick="hitung()">Hitung</button>
+    <p>Hasil: <span id="hasil"></span></p>
+
+    <script>
+        function hitung() {
+            
+            var nisn = document.getElementById("nisn").value;
+
+            var hasil = (nisn % 5) + 1;
+
+            document.getElementById("hasil").textContent = hasil;
+        }
+    </script>
+</body>
+</html>

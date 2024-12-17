@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFDD60;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 15px;
+    font-size: 1em;
+    color: #007B99;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #CFF6C4;
+    margin: 0 10px;
+}
+
+.gallery {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery-item {
+    width: 100px;
+    height: 100px;
+    background-color: #CFF6C4;
+}
+
+.buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #6EB5FF;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #5DA3E3;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFDD60;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
